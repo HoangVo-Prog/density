@@ -1,5 +1,5 @@
 #!/bin/bash
-python measure_subband_entropy.py \
+python metrics/subband_entropy/measure_subband_entropy.py \
   --input /path/to/images \
   --output ./density_results \
   --mode both \
