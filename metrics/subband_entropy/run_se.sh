@@ -1,0 +1,12 @@
+#!/bin/bash
+python measure_subband_entropy.py \
+  --input /path/to/images \
+  --output ./density_results \
+  --mode both \
+  --aggregation both \
+  --tile-size 512 \
+  --stride 512 \
+  --matched-long-edge 2048 \
+  --levels 3 --order 3 \
+  --backend space --residuals none \
+  --plots

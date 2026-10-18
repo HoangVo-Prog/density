@@ -4,13 +4,6 @@
 
 Recursively scans `.jpg` and `.jpeg` files (case-insensitive) in the specified directory and its subdirectories. No VQA annotations or models are required.
 
-## Installation
-
-```bash
-python -m pip install -r requirements_subband_entropy.txt
-```
-
-Linux/WSL is recommended, as `pyrtools` may require compiled dependencies.
 
 ## Run All Modes
 
