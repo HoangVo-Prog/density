@@ -1,7 +1,7 @@
 #!/bin/bash
 python metrics/subband_entropy/measure_subband_entropy.py \
   --input /path/to/images \
-  --output ./density_results \
+  --output ./subband_entropy_results \
   --mode both \
   --aggregation both \
   --tile-size 512 \

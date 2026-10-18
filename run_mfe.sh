@@ -1,6 +1,6 @@
 #!/bin/bash
-python metrics/multi_features_entropy/multifeature_entropy.py \
+python metrics/multifeatures_entropy/multifeature_entropy.py \
   --input /path/to/images \
-  --output results/entropy_exact.csv \
+  --output multifeature_entropy_results/entropy_exact.csv \
   --color-mode gray \
   --spatial-mode auto
